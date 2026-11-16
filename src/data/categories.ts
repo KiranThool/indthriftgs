@@ -1,0 +1,68 @@
+import { Category } from '@/types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'cat-1',
+    name: 'Vintage Tees',
+    slug: 'vintage-tees',
+    description: 'Faded graphics, single-stitch hems, 90s band & tour tees with authentic patina.',
+    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=900&auto=format&fit=crop',
+    itemCount: 28,
+  },
+  {
+    id: 'cat-2',
+    name: 'Oversized Shirts',
+    slug: 'oversized-shirts',
+    description: 'Boxy flannel, oxford cotton, silk cuban collars, and relaxed silhouettes.',
+    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=900&auto=format&fit=crop',
+    itemCount: 24,
+  },
+  {
+    id: 'cat-3',
+    name: 'Denim',
+    slug: 'denim',
+    description: "Original Levi's, selvedge Japanese denim, relaxed carpenter & vintage fades.",
+    image: 'https://images.unsplash.com/photo-1542272604-780c96856592?q=80&w=900&auto=format&fit=crop',
+    itemCount: 32,
+  },
+  {
+    id: 'cat-4',
+    name: 'Jackets & Outerwear',
+    slug: 'jackets',
+    description: 'Workwear canvas, leather bombers, track jackets, and archive trench coats.',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=900&auto=format&fit=crop',
+    itemCount: 19,
+  },
+  {
+    id: 'cat-5',
+    name: 'Sweatshirts & Knits',
+    slug: 'sweatshirts',
+    description: 'Heavyweight reverse weave hoodies, mohair cardigans, and collegiate crewnecks.',
+    image: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=900&auto=format&fit=crop',
+    itemCount: 22,
+  },
+  {
+    id: 'cat-6',
+    name: 'Streetwear',
+    slug: 'streetwear',
+    description: 'Grails, archive skate culture, technical gorpcore, and limited subculture drops.',
+    image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=900&auto=format&fit=crop',
+    itemCount: 35,
+  },
+  {
+    id: 'cat-7',
+    name: 'Sneakers & Boots',
+    slug: 'sneakers',
+    description: 'Broken-in leather boots, retro court sneakers, and rare Japanese footwear editions.',
+    image: 'https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=900&auto=format&fit=crop',
+    itemCount: 16,
+  },
+  {
+    id: 'cat-8',
+    name: 'Accessories',
+    slug: 'accessories',
+    description: 'Vintage belts, washed canvas caps, nylon side bags, and silver signets.',
+    image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=900&auto=format&fit=crop',
+    itemCount: 18,
+  },
+];
